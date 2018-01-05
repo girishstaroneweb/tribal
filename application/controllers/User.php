@@ -260,12 +260,11 @@ class User extends CI_Controller {
     }
 
     public function Import_Excel() {
-
+        echo 'Import_Excel ';die;
         $this->load->library('excel_reader');
-        $this->excel_reader->read('./uploads/girish.xls');
+        $this->excel_reader->read('./uploads/girish.xlsx');
         $worksheet = $this->excel_reader->worksheets[0];
         echo '<pre>';
-        print_r($worksheet);
         print_r($worksheet);
         die;
         
