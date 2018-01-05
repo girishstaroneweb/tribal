@@ -17,6 +17,9 @@ class User extends CI_Controller {
         $this->load->view('footer');
         
         
+        //extra test line added by girish 
+        
+        
     }
 
     public function index($offset = 0) {
