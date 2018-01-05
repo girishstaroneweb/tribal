@@ -274,3 +274,4 @@ class User extends CI_Controller {
 }
 
 //End of class
+//End of class
